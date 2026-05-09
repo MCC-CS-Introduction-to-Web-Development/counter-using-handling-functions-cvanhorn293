@@ -20,7 +20,7 @@ export default function Counter() {
             <div className="flex justify-center mt-8 gap-4">
                 <ButtonCounter count={count} handleCount={handleCount} />
             </div>
-            {/* <div className={`px-8 py-3 mt-8 text-center bg-red-400 font-semibold drop-shadow-xl ${count < 666 ? "hidden" : ""}`}>DOOM! Why are you clicking this so much?</div> */}
+            <div className={`px-8 py-3 mt-8 text-center bg-red-400 font-semibold drop-shadow-xl ${count < 666 ? "hidden" : ""}`}>DOOM! Why are you clicking this so much?</div>
         </>
     );
 }
